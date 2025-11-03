@@ -2,3 +2,18 @@ json
 .venv/
 venv/
 .env/
+
+# Google OAuth credentials
+topic/google_calendar/credentials.json
+topic/google_calendar/token.json
+
+# Environment variables
+.env
+slack/.env
+
+# Python cache
+*.pyc
+__pycache__/
+
+# IDE
+.idea/
